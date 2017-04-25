@@ -1,18 +1,11 @@
-THEOS_PACKAGE_DIR_NAME = debs
 TARGET = :clang
 ARCHS = armv7 arm64
 FINALPACKAGE = 1
-THEOS_DEVICE_IP=192.168.0.10
-THEOS_DEVICE_PORT=22
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = Blow
-Blow_FILES = Blow.xm $(wildcard *.m)
-Blow_USE_SUBSTRATE = 1
-#Blow_FRAMEWORKS = UIKit
-#Blow_PRIVATE_FRAMEWORKS
-#Blow_LIBRARIES
+TWEAK_NAME = IGExperiments
+IGExperiments_FILES = IGExperiments.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
