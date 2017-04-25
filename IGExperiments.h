@@ -20,6 +20,7 @@
 -(NSArray *)defaultExperiments;
 -(id)initWithExperimentType:(int)arg1 defaultExperiments:(NSArray *)experiments uniqueIdentifier:(NSString *)identifier;
 -(id)initWithExperimentType:(int)arg1 experimentSpecs:(NSArray *)experiments uniqueIdentifier:(NSString *)identifier service:(id)arg4;
+- (id)initWithExperimentType:(long long)arg1 experimentSpecs:(id)arg2 uniqueIdentifier:(id)arg3;
 - (id)initWithExperimentType:(long long)arg1 experimentSpecs:(id)arg2 uniqueIdentifier:(id)arg3 networker:(id)arg4;
 @end
 
@@ -50,10 +51,22 @@
 -(void)showExperimentController;
 @end
 
+@interface IGUserDetailViewController_DEPRECATED : UIViewController // Not sure when they renamed it to deprecated
+-(BOOL)isShowingCurrentUser;
+-(void)showExperimentController;
+@end
+
 @interface IGService : NSObject
 +(id)sharedService;
 @end
 
 @interface IGNetworker : NSObject
 + (id)sharedNetworker;
+@end
+
+@interface IGViewController : UIViewController
+@end
+
+@interface IGProfileViewController : IGViewController
+-(void)showExperimentController;
 @end
