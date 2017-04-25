@@ -1,0 +1,10 @@
+Package: com.cpdigitaldarkroom.blow
+Name: IGExperiments
+Depends: mobilesubstrate
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Allows Modification of Expriments
+ Go to your user profile page and tap on the new icon on the top left.
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Section: Tweaks
