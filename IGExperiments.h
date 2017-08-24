@@ -1,4 +1,7 @@
 
+@interface IGAccountSettingsViewController : UIViewController
+@end
+
 @interface IGAlertView : UIAlertView
 -(id)initWithTitle:(id)arg1 message:(id)arg2 cancelButtonTitle:(id)arg3 otherButtonTitle:(id)arg4 cancelBlock:(/*^block*/id)arg5 otherBlock:(/*^block*/id)arg6 ;
 @end
