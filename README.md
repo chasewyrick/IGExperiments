@@ -1,6 +1,6 @@
 # IGExperiments
 <p align="center">
-    <img src="https://img.shields.io/badge/Instagram-11.0-orange.svg?style=flat-square" alt="Instagram: 11.0+"/><br><br>
+    <img src="https://img.shields.io/badge/Instagram-11.0%2B-orange.svg?style=flat-square" alt="Instagram: 11.0+"/><br><br>
 </p>
 
 IGExperiments allows you to view the a/b experiments Instagram is testing. These experiments are subject to change without notice by Instagram. The only thing IGExperiments does is grant access to these.
