@@ -1,7 +1,7 @@
 //
 //
 //    IGExperiments.xm
-//    White Instagram
+//    Access to Instagram Experiments
 //    Created by Juan Carlos Perez <carlos@jcarlosperez.me> 04/27/2016
 //    © CP Digital Darkroom <admin@cpdigitaldarkroom.com>. All rights reserved.
 //
@@ -19,7 +19,7 @@ static BOOL oldVersion;
 
 - (void)viewDidLoad {
 	%orig;
-	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"navBarSettings"] style:UIBarButtonItemStylePlain target:self action:@selector(showExperimentsController:)];
+	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"bar-button-settings"] style:UIBarButtonItemStylePlain target:self action:@selector(showExperimentsController:)];
 }
 
 %new

@@ -5,6 +5,7 @@ FINALPACKAGE = 1
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = IGExperiments
+IGExperiments_USE_SUBSTRATE = 0
 IGExperiments_FILES = IGExperiments.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
